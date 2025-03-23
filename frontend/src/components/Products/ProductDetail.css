@@ -1,0 +1,84 @@
+.product-detail {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background:url("https://img.freepik.com/premium-photo/3d-illustration-using-credit-cards-shopping-with-banks-stores-online-smartphone_39406-550.jpg?w=1060");
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-detail h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-detail p {
+    font-size: 18px;
+    color: #120d0d;
+    margin-bottom: 8px;
+}
+
+.product-detail input {
+    width: 80px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.product-detail button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-detail button:hover {
+    background: #0056b3;
+}
+
+.product-detail .message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+}
+
+.product-detail .error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .product-detail {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .product-detail h2 {
+        font-size: 22px;
+    }
+
+    .product-detail p {
+        font-size: 16px;
+    }
+
+    .product-detail input {
+        width: 60px;
+    }
+
+    .product-detail button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,35 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-left: 15px;
+}
+
+.nav a, .nav button {
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav a:hover, .nav button:hover {
+    color: lightgray;
+}
+
+/* .content-container{
+    background: url("https://as2.ftcdn.net/v2/jpg/09/55/42/15/1000_F_955421593_ougOBRB70iP1uyrVqM4NLVEASLngP2CB.jpg");
+} */

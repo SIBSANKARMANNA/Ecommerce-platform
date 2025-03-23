@@ -1,0 +1,80 @@
+ 
+  .product-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+   
+}
+
+
+.product-card {
+    background: url("https://img.freepik.com/free-photo/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept_58466-14529.jpg?t=st=1742645768~exp=1742649368~hmac=309692b393eb21ff458ca507e3fb92ed797012b8c1ede93cbcede8ae9b65037d&w=1060");
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background: #007bff;
+    color: #fff;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background: #0056b3;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}

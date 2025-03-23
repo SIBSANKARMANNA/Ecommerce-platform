@@ -1,0 +1,113 @@
+.admin-dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  /* background: #fff; */
+  background: url("https://img.freepik.com/premium-photo/concept-spring-shopping-season-sale-space-text_185193-98634.jpg?w=1380");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.admin-dashboard h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 15px;
+  /* background: #f9f9f9; */
+  background: url("https://img.freepik.com/premium-photo/shopping-cart-with-bag-it-blue-background_943617-75961.jpg?w=1380");
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  background: #fff;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section li:nth-child(odd) {
+  background: #eef6ff;
+}
+/* .individual-order{
+  background: url("https://img.freepik.com/premium-photo/shopping-cart-with-bag-it-blue-background_943617-75961.jpg?w=1380");
+} */
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  background: #28a745;
+  color: white;
+}
+
+button:nth-child(2) {
+  background: #007bff;
+  color: white;
+}
+
+button:nth-child(3) {
+  background: #dc3545;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+      width: 90%;
+      padding: 15px;
+  }
+
+  .section li {
+      font-size: 16px;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  button {
+      width: 100%;
+      margin: 5px 0;
+  }
+}

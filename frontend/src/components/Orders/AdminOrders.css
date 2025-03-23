@@ -1,0 +1,76 @@
+
+
+.orders {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: url("https://img.freepik.com/free-photo/cyber-monday-sale-credit-cards-keyboard_23-2148670014.jpg?t=st=1742645380~exp=1742648980~hmac=e5b2561cf996d254fc4ec9e5c66a8b6d7b48da4c543c1b919d336a2fa21bd94a&w=996");
+}
+
+h2 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-card {
+    /* background:url("https://img.freepik.com/free-photo/computer-mouse-paper-bags-blue-background-top-view_169016-43523.jpg?t=st=1742645202~exp=1742648802~hmac=4aa0b215b76158f9429f8222e41ce1e168ba5a7a39e228efa5f0d828f500a478&w=996"); */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-card select {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Order items grid: Ensures proper layout */
+.order-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensures better spacing */
+    gap: 15px;
+    margin-top: 15px;
+    align-items: center; /* Align items properly */
+   
+}
+
+/* Order item styling */
+.order-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("https://img.freepik.com/free-photo/computer-mouse-paper-bags-blue-background-top-view_169016-43523.jpg?t=st=1742645202~exp=1742648802~hmac=4aa0b215b76158f9429f8222e41ce1e168ba5a7a39e228efa5f0d828f500a478&w=996");
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Image Styling */
+.order-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain; /* Ensures full image visibility */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Product Description Styling */
+.order-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
