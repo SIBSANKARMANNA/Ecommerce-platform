@@ -64,6 +64,5 @@ npm start
 
 ## Contact
 📧 Email: manna.sibsankar8@gmail.com 
-🔗 GitHub: [your-github-profile](https://github.com/your-username)  
-🔗 LinkedIn: [your-linkedin-profile](https://linkedin.com/in/your-profile)
+🔗 LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/sibsankarmanna82973b1a2/)
 
